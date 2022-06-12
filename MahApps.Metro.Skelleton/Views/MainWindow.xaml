@@ -1,0 +1,48 @@
+﻿<Window
+    x:Name="Window"
+    x:Class="MahApps.Metro.Skelleton.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:ui="http://schemas.modernwpf.com/2019" 
+    xmlns:viewmodels="clr-namespace:MahApps.Metro.Skelleton.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
+    xmlns:controlpages="clr-namespace:MahApps.Metro.Skelleton.Views.Pages"
+    
+    ui:WindowHelper.UseModernWindowStyle="True"
+    ui:TitleBar.ExtendViewIntoTitleBar="True"
+    mc:Ignorable="d"
+    Width="1366"
+    Height="768"
+    MinWidth="500"
+    MinHeight="500"
+    WindowStartupLocation="CenterScreen">
+
+    <ui:NavigationView x:Name="NavView"
+        AlwaysShowHeader="True"
+        IsBackButtonVisible="Collapsed"
+        IsTitleBarAutoPaddingEnabled="False"
+        PaneTitle="{Binding Title}"
+        IsPaneOpen="True"
+        ItemInvoked="NavViewItemInvoked">
+
+        <ui:NavigationView.MenuItems>
+            <ui:NavigationViewItemHeader Content="Controls" />
+            
+            <ui:NavigationViewItem Content="Overview" Tag="{x:Type controlpages:ControlsPage}">
+                <ui:NavigationViewItem.Icon>
+                    <ui:FontIcon Glyph="&#xE71D;" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <ui:NavigationViewItem Content="Second" Tag="{x:Type controlpages:SecondPage}">
+                <ui:NavigationViewItem.Icon>
+                    <ui:FontIcon Glyph="&#xE790;" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+        </ui:NavigationView.MenuItems>
+
+        <ui:Frame x:Name="ContentFrame" Navigated="ContentFrameNavigated" />
+
+    </ui:NavigationView>
+</Window>
