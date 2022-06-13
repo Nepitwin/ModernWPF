@@ -5,8 +5,7 @@
          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
          xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
          xmlns:common="clr-namespace:MahApps.Metro.Skeleton.Common"
-         xmlns:pages="clr-namespace:MahApps.Metro.Skeleton.ViewModels.Pages"
-         d:DataContext="{d:DesignInstance Type=pages:SettingsPageViewModel}"
+         xmlns:pages="clr-namespace:MahApps.Metro.Skeleton.ViewModels.Pages" d:DataContext="{d:DesignInstance Type=pages:SettingsPageViewModel}"
          mc:Ignorable="d">
 
     <Page.Resources>
