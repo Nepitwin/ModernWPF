@@ -4,11 +4,13 @@
 
 Source code examples are used from ModernWPF and extracted to minimalistic boiler plate code base and .Net Core 6.
 
-## Migrated examples
+## Examples
 
-  * [MahApps.Metro](https://github.com/Kinnara/ModernWpf/wiki/MahApps.Metro-Integration)
-
-  ![MahApps.Metro.Skelleton](Img/MahApps.Metro.Skelleton.png "MahApps.Metro.Skelleton")
+  * MahApps.PrismLibrary.Skeleton
+    *  Boilerplate code for an empty prism library wpf application by ivy doc
+  * [MahApps.Metro.Skeleton](https://github.com/Kinnara/ModernWpf/wiki/MahApps.Metro-Integration)
+    *  Windows metro design example by prism library as wpf application based on prism library skeleton
+       ![MahApps.Metro.Skelleton](Img/MahApps.Metro.Skelleton.png "MahApps.Metro.Skelleton")
 
 ## Useful links
   * [Modern WPF](https://github.com/Kinnara/ModernWpf)

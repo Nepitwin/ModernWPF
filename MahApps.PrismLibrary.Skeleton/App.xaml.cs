@@ -1,8 +1,8 @@
 ﻿using System.Windows;
-using MahApps.Metro.Skeleton.Views;
+using MahApps.PrismLibrary.Skeleton.Views;
 using Prism.Ioc;
 
-namespace MahApps.Metro.Skeleton;
+namespace MahApps.PrismLibrary.Skeleton;
 
 /// <summary>
 /// Interaction logic for App.xaml
