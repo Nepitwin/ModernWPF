@@ -5,10 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    xmlns:ui="http://schemas.modernwpf.com/2019" 
-    xmlns:viewmodels="clr-namespace:MahApps.Metro.Skelleton.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
-    xmlns:controlpages="clr-namespace:MahApps.Metro.Skelleton.Views.Pages"
-    
+    xmlns:ui="http://schemas.modernwpf.com/2019"
+    d:DataContext="{d:DesignInstance Type=viewModels:MainWindowViewModel}"
+    xmlns:viewModels="clr-namespace:MahApps.Metro.Skeleton.ViewModels"
+    xmlns:pages="clr-namespace:MahApps.Metro.Skeleton.Views.Pages"
+
     ui:WindowHelper.UseModernWindowStyle="True"
     ui:TitleBar.ExtendViewIntoTitleBar="True"
     mc:Ignorable="d"
@@ -29,13 +30,13 @@
         <ui:NavigationView.MenuItems>
             <ui:NavigationViewItemHeader Content="Controls" />
             
-            <ui:NavigationViewItem Content="Overview" Tag="{x:Type controlpages:ControlsPage}">
+            <ui:NavigationViewItem Content="Overview" Tag="{x:Type pages:ControlsPage}">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Glyph="&#xE71D;" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
 
-            <ui:NavigationViewItem Content="Second" Tag="{x:Type controlpages:SecondPage}">
+            <ui:NavigationViewItem Content="Second" Tag="{x:Type pages:SecondPage}">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Glyph="&#xE790;" />
                 </ui:NavigationViewItem.Icon>

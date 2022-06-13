@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MahApps.Metro.Skelleton.Resources {
+namespace MahApps.Metro.Skeleton.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MahApps.Metro.Skelleton.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MahApps.Metro.Skelleton.Resources.strings", typeof(strings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MahApps.Metro.Skeleton.Resources.strings", typeof(strings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

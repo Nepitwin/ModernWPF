@@ -1,11 +1,11 @@
 ﻿using ControlzEx.Theming;
-using MahApps.Metro.Skelleton.Views.Pages;
 using ModernWpf.Controls;
 using ModernWpf.Navigation;
 using System;
 using System.Linq;
 using System.Windows;
 using System.Windows.Navigation;
+using MahApps.Metro.Skeleton.Views.Pages;
 
 namespace MahApps.Metro.Skelleton.Views
 {
