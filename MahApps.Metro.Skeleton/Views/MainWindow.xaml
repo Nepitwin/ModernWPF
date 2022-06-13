@@ -1,5 +1,4 @@
 ﻿<Window
-    x:Name="Window"
     x:Class="MahApps.Metro.Skeleton.Views.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,7 +8,6 @@
     d:DataContext="{d:DesignInstance Type=viewModels:MainWindowViewModel}"
     xmlns:viewModels="clr-namespace:MahApps.Metro.Skeleton.ViewModels"
     xmlns:pages="clr-namespace:MahApps.Metro.Skeleton.Views.Pages"
-
     ui:WindowHelper.UseModernWindowStyle="True"
     ui:TitleBar.ExtendViewIntoTitleBar="True"
     mc:Ignorable="d"
