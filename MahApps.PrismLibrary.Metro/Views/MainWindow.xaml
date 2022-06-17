@@ -5,8 +5,9 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     xmlns:ui="http://schemas.modernwpf.com/2019"
-    xmlns:pages="clr-namespace:MahApps.Metro.Skeleton.Views.Pages" 
-    xmlns:viewmodels="clr-namespace:MahApps.Metro.Skeleton.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
+    xmlns:pages1="clr-namespace:MahApps.PrismLibrary.Metro.Views.Pages"
+    xmlns:viewModels="clr-namespace:MahApps.PrismLibrary.Metro.ViewModels"
+    d:DataContext="{d:DesignInstance Type=viewModels:MainWindowViewModel}"
     ui:WindowHelper.UseModernWindowStyle="True"
     ui:TitleBar.ExtendViewIntoTitleBar="True"
     mc:Ignorable="d"
@@ -27,13 +28,13 @@
         <ui:NavigationView.MenuItems>
             <ui:NavigationViewItemHeader Content="Controls" />
             
-            <ui:NavigationViewItem Content="Overview" Tag="{x:Type pages:ControlsPage}">
+            <ui:NavigationViewItem Content="Overview" Tag="{x:Type pages1:ControlsPage}">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Glyph="&#xE71D;" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
 
-            <ui:NavigationViewItem Content="Second" Tag="{x:Type pages:SecondPage}">
+            <ui:NavigationViewItem Content="Second" Tag="{x:Type pages1:SecondPage}">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Glyph="&#xE790;" />
                 </ui:NavigationViewItem.Icon>

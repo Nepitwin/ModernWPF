@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Windows.Data;
 using ModernWpf;
 
-namespace MahApps.Metro.Skeleton.Common;
+namespace MahApps.PrismLibrary.Metro.Common;
 
 internal class AppThemes : List<AppTheme>
 {

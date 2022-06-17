@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MahApps.Metro.Skeleton.Resources {
+namespace MahApps.PrismLibrary.Metro.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MahApps.Metro.Skeleton.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MahApps.Metro.Skeleton.Resources.strings", typeof(strings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MahApps.PrismLibrary.Metro.Resources.strings", typeof(strings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace MahApps.Metro.Skeleton.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MahApps.Metro.Skelleton.
+        ///   Looks up a localized string similar to MahApps.PrismLibrary.Metro.
         /// </summary>
         internal static string Title {
             get {

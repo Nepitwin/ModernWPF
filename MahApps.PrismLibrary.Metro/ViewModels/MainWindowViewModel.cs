@@ -1,6 +1,6 @@
 ﻿using Prism.Mvvm;
 
-namespace MahApps.Metro.Skeleton.ViewModels;
+namespace MahApps.PrismLibrary.Metro.ViewModels;
 
 internal class MainWindowViewModel : BindableBase
 {

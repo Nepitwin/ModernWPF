@@ -2,7 +2,7 @@
 using MahApps.Metro.Skeleton.Views;
 using Prism.Ioc;
 
-namespace MahApps.Metro.Skeleton;
+namespace MahApps.PrismLibrary.Metro;
 
 /// <summary>
 /// Interaction logic for App.xaml

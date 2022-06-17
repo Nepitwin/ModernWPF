@@ -1,11 +1,12 @@
-﻿<ui:Page x:Class="MahApps.Metro.Skeleton.Views.Pages.SettingsPage"
+﻿<ui:Page x:Class="MahApps.PrismLibrary.Metro.Views.Pages.SettingsPage"
          xmlns:ui="http://schemas.modernwpf.com/2019"
          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
          xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-         xmlns:common="clr-namespace:MahApps.Metro.Skeleton.Common"
-         xmlns:pages="clr-namespace:MahApps.Metro.Skeleton.ViewModels.Pages" d:DataContext="{d:DesignInstance Type=pages:SettingsPageViewModel}"
+         xmlns:pages="clr-namespace:MahApps.PrismLibrary.Metro.ViewModels.Pages"
+         xmlns:common="clr-namespace:MahApps.PrismLibrary.Metro.Common"
+         d:DataContext="{d:DesignInstance Type=pages:SettingsPageViewModel}"
          mc:Ignorable="d">
 
     <Page.Resources>

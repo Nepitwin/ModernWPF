@@ -1,4 +1,4 @@
-﻿namespace MahApps.Metro.Skeleton.Views.Pages;
+﻿namespace MahApps.PrismLibrary.Metro.Views.Pages;
 
 /// <summary>
 /// Interaction logic for ControlsPage.xaml
