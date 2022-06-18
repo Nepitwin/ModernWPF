@@ -6,11 +6,18 @@ Source code examples are used from ModernWPF and extracted to minimalistic boile
 
 ## Examples
 
-  * MahApps.PrismLibrary.Skeleton
-    *  Boilerplate code for an empty prism library wpf application by ivy doc
-  * [MahApps.Metro.Skeleton](https://github.com/Kinnara/ModernWpf/wiki/MahApps.Metro-Integration)
-    *  Windows metro design example by prism library as wpf application based on prism library skeleton
-       ![MahApps.Metro.Skelleton](Img/MahApps.Metro.Skelleton.png "MahApps.Metro.Skelleton")
+### MahApps.PrismLibrary.Skeleton
+  * Boilerplate code for an empty prism library wpf application by ivy doc
+
+### [MahApps.PrismLibrary.Metro](https://github.com/Kinnara/ModernWpf/wiki/MahApps.Metro-Integration)
+  *  Windows metro design example by prism library as wpf application based on prism library skeleton.
+  
+  ![MahApps.PrismLibrary.Metro](Img/MahApps.PrismLibrary.Metro.png "MahApps.PrismLibrary.Metro")
+  
+### [MahApps.PrismLibrary.WebView2](https://docs.microsoft.com/de-de/microsoft-edge/webview2/get-started/wpf)
+  *  Microsoft WebView2 sample implementation.
+  
+  ![MahApps.PrismLibrary.WebView2](Img/MahApps.PrismLibrary.WebView2.png "MahApps.PrismLibrary.WebView2")
 
 ## Useful links
   * [Modern WPF](https://github.com/Kinnara/ModernWpf)

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MahApps.PrismLibrary.Metro"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MahApps.PrismLibrary.Login", "MahApps.PrismLibrary.Login\MahApps.PrismLibrary.Login.csproj", "{AC2745C5-7FE6-4A2A-B36F-9B43DCD3F22F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MahApps.PrismLibrary.WebView2", "MahApps.PrismLibrary.WebView2\MahApps.PrismLibrary.WebView2.csproj", "{C677F2D7-FC00-4E16-8336-93CED0419EF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AC2745C5-7FE6-4A2A-B36F-9B43DCD3F22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2745C5-7FE6-4A2A-B36F-9B43DCD3F22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC2745C5-7FE6-4A2A-B36F-9B43DCD3F22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C677F2D7-FC00-4E16-8336-93CED0419EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C677F2D7-FC00-4E16-8336-93CED0419EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C677F2D7-FC00-4E16-8336-93CED0419EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C677F2D7-FC00-4E16-8336-93CED0419EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
