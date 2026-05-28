@@ -2,18 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="ModernWpfUI.MahApps" Version="0.9.5" />
-    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
   </ItemGroup>
 
 </Project>
